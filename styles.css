@@ -1,0 +1,254 @@
+body{
+    margin: 0;  
+    border: none;
+    background-color: rgb(133, 255, 129); 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imagenes/imagenfondo.png);
+    background-size: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width:100%;
+    height: 100%;
+}
+
+/*header*/
+
+.flexheader{
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    font-family: fuente2;
+    background: linear-gradient(rgba(0, 0, 0,0.6), transparent); 
+    z-index: 1;
+}
+
+.logo{
+    width:100px;
+    height:100%;
+}
+
+
+.flexheader a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    font-family: spartan;
+    border-radius: 20px;
+}
+
+a:hover{
+    box-shadow: 0 0 5px 1px rgb(122, 122, 122);
+    
+    border: 2px solid rgb(255, 255, 255);
+}
+
+/*MAIN*/
+
+section{
+    background-color: rgb(1, 0, 80);
+    padding: 20px;
+    min-width: 75vw;
+    min-height: 75vh;
+    color: white;
+    box-sizing: border-box;
+}
+
+/*seccion 1*/
+
+#seccion1{
+    background-color: transparent;
+    padding: 70px;
+}
+
+#seccion1 h1{
+    font-family: spartan;
+    font-size: 80px;
+}
+
+#seccion1 p{
+    font-family: spartan;
+    font-size: 40px;
+}
+/*seccion 2*/
+
+#seccion2{
+    background-color: rgb(15, 20, 63);
+}
+.contenedor{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 0 50px 0;
+}
+
+#seccion2 h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: spartan;
+    margin: 40px 0 40px 0;
+}
+
+#seccion2 p{
+    margin: 0 0 0 0;
+    font-size: 20px;
+    font-family: spartan;
+}
+.sabores{
+    background-color: rgb(12, 2, 214);
+    min-height: 400px;
+    width: 300px;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px rgb(0, 0, 14);
+    transition-duration: 0.5s;
+}
+
+.sabores:hover{
+    box-shadow: 0 0 20px 5px rgb(155, 0, 0);
+    width:350px;
+}
+.imagen{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+
+/*seccion 3*/
+
+.imagen3{
+    background-image: url(imagenes/anuncio.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 5000px;
+}
+
+.flexseccion{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedortexto{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px 10px 50px;
+    box-sizing: border-box;
+}
+
+.contenedortexto h2,h3,p{
+    display: inline-block;
+    box-sizing: border-box;
+}
+.contenedortexto H2{
+    font-size: 80px;
+    font-family: anton;
+    text-align: center;
+    margin: 0;
+}
+
+.contenedortexto h3{
+    font-size: 40px;
+    font-family: anton;
+    text-align: center;
+    margin: 0;
+}
+
+.primertexto{
+    font-size: 20px;
+    font-family: spartan;
+    margin-top: 50px;
+}
+
+.textofinal{
+    text-align: center;
+    margin-top: 50px;
+    font-family: spartan;
+}
+button{
+    width: 250px;
+    height: 50px;
+    margin: 0 auto 50px auto;
+    background-color: blue;
+    color: white;
+    font-family: anton;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    box-shadow: 0 0 10px 0 rgb(0,0,0);
+    transition-duration: 0.25s;
+    cursor: pointer;
+}
+
+button:hover{
+    width: 300px;
+    height: 75px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px 0 rgb(4, 0, 255);
+} 
+/*footer*/
+
+footer{
+    background-color: rgb(12, 0, 179);
+}
+.formulario{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 500px;
+    margin: 0 auto 50px auto;
+}
+
+footer h2{
+    font-size: 50px;
+    font-family: anton;
+    text-align: center;
+    color: white;
+}
+
+input[type="text"],input[type="email"], input[type="textarea"]{
+    padding: 10px;
+    color: white;
+    font-family: fuente2;
+    font-size: 20px;
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+input[type="button"]{
+    background-color: blue;
+    color: white;
+    font-family: anton;
+    border:none;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover{
+    color: blue;
+    background-color: white;
+} 

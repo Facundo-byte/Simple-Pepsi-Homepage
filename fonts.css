@@ -1,0 +1,24 @@
+@font-face{
+    font-family: "fuente1"; 
+    src: url("Fuentes/Inconsolata-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face{
+    font-family: "fuente2"; 
+    src: url("Fuentes/Karla-VariableFont_wght.ttf");
+}
+
+@font-face{
+    font-family: "fuentepepsi"; 
+    src: url("Fuentes/PEPSI_pl.ttf");
+}
+
+@font-face{
+    font-family: "anton"; 
+    src: url("Fuentes/Anton-Regular.ttf");
+}
+
+@font-face{
+    font-family: "spartan"; 
+    src: url("Fuentes/LeagueSpartan-VariableFont_wght.ttf");
+}
